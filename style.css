@@ -88,7 +88,6 @@ body {
 
 }
 
-/* not using now */
 .center {
   background-color: #ddd;
   display: flex;
@@ -114,21 +113,20 @@ body {
   left:0;
 
 }
+
 /* sildeshow */
 .carousel {
   overflow: hidden;
   position: relative;
   max-width: 1000px;
   height: auto;
-  padding-top: 20px;
 }
 .carousel .carousel_item,
 .carousel .carousel_item-hidden {
   display: none;
  }
  .carousel .carousel_item img {
-   max-width: 600px;
-   width: 100%;
+   max-width: 100%;
    height: auto;
  }
  .carousel .carousel_item-visible {
